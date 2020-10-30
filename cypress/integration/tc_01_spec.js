@@ -26,17 +26,11 @@ describe('Login', function(){
     it('Mark-unmak as favorite', function(){
         cy.get(':nth-child(4) > .nav-link').contains('marcusdemo').click()
         cy.contains('My Articles').should('be.visible')
-        //cy.get(':nth-child(4) > .nav-link').click
-        cy.get('.ion-heart').click()
+        cy.get(':nth-child(4) > .nav-link').click
         cy.contains('Favorited Articles').click()
         cy.url().should('include', 'favorites')
-        cy.get('.ion-heart').click()
+        cy.get(':nth-child(4) > .nav-link').click
         cy.reload()
-
-        // cy.contains('No articles are here... yet.').should('be.visible')
-        // cy.go('back')
-
-
 
     })
 

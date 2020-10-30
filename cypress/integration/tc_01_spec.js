@@ -33,8 +33,8 @@ describe('Login', function(){
         cy.get('.ion-heart').click()
         cy.reload()
 
-        cy.contains('No articles are here... yet.').should('be.visible')
-        cy.go('back')
+        // cy.contains('No articles are here... yet.').should('be.visible')
+        // cy.go('back')
 
 
 

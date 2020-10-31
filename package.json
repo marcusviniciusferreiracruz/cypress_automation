@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/marcusviniciusferreiracruz/cypress_automation#readme",
   "dependencies": {
-    "cypress": "^5.5.0"
+    "cypress": "^5.5.0",
+    "npx": "^10.2.2"
   }
 }

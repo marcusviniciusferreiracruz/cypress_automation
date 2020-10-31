@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open"
+    "test": "npx cypress open",
+    "build": "npx cypress build"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,7 @@
     "url": "https://github.com/marcusviniciusferreiracruz/cypress_automation/issues"
   },
   "homepage": "https://github.com/marcusviniciusferreiracruz/cypress_automation#readme",
-  "devDependencies": {
+  "dependencies": {
     "cypress": "^5.5.0"
   }
 }
